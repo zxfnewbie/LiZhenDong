@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="all_unit_converter">单位转换</string>
+    <string name="factor">分解</string>
+
+    <string name="copied">已复制到剪贴板</string>
+    <string name="delete_desc">清除</string>
+    <string name="derivative">求导</string>
+    <string name="error">错误</string>
+    <string name="expand">展开</string>
+     <string name="graph">图像</string>
+    <string name="enter_expression">输入表达式</string>
+    <string name="title_activity_graph">图像</string>
+    <string name="title_activity_unit_converter_acitvity">单位转换</string>
+    <string name="solve_for_var">以变量 (x, y, z, …) 求解方程：</string>
+    <string name="solve_equation">方程求解</string>
+
+    <string name="simplify">化简</string>
+    <string name="science_calculator">科学计算器</string>
+    <string name="logic_calculator">进制转换</string>
+
+    <string name="nh_p_d_li_u">输入一个值：</string>
+
+
+    <string name="noFunDisp">没有函数可供显示</string>
+    <string name="tapFun">选择一个函数</string>
+    <string name="save">保存</string>
+    <string name="add_function">添加函数</string>
+    <string name="not_variable">
+        <![CDATA[
+        未找到变量</br>
+        请输入一个含有变量 x 的方程</br>
+        例：2x + 1 或 2x^2 + x - 2
+        ]]>
+    </string>
+    <string name="history">历史记录</string>
+    <string name="solve">求解</string>
+
+
+    <string name="enter_value">输入值</string>
+    <string name="name">名称</string>
+    <string name="graph_2">图像</string>
+    <string name="enter_limit">输入极限</string>
+    <string name="eval">求值</string>
+    <string name="limit">极限计算</string>
+    <string name="integrate">积分</string>
+    <string name="enter_function">输入函数</string>
+    <string name="lower_limit">下极限</string>
+    <string name="upper_limit">上极限</string>
+
+    <string name="primitive">不定积分</string>
+    <string name="ln_hint">
+        <![CDATA[
+<font color="red">Log(x) 为自然对数</font>
+        ]]>
+    </string>
+    <string name="analytics">分析</string>
+    <string name="algebra">代数</string>
+
+    <string name="calculator">计算器</string>
+    <string name="not_find_root">无法找到方程的根</string>
+    <string name="no_root">此方程无解</string>
+
+    <string name="close_drawer">关闭抽屉栏</string>
+    <string name="history_text">历史记录</string>
+
+    <string name="unit1">温度</string>
+    <string name="unit2">质量</string>
+    <string name="unit3">长度</string>
+    <string name="unit4">功率</string>
+    <string name="unit5">能量</string>
+    <string name="unit6">速度</string>
+    <string name="unit7">面积</string>
+    <string name="unit8">体积</string>
+    <string name="unit9">比特率</string>
+    <string name="unit10">时间</string>
+
+    <string name="weightunitkg">千克 (kg)</string>
+    <string name="weightunitgm">克 (g)</string>
+    <string name="weightunitlb">磅 (lb)</string>
+    <string name="weightunitounce">盎司 (oz)</string>
+    <string name="weightunitmg">毫克 (mg)</string>
+
+
+    <string name="temperatureunitc">摄氏度 (ºC)</string>
+    <string name="temperatureunitf">华氏度 (ºF)</string>
+    <string name="temperatureunitk">开氏度 (ºK)</string>
+    <string name="temperatureunitn">牛顿温标 (ºN)</string>
+
+    <string name="lengthunitnm">纳米 (nm)</string>
+    <string name="lengthunitmicrom">微米 (µm)</string>
+    <string name="lengthunitpm">皮米 (pm)</string>
+    <string name="lengthunitmm">毫米 (mm)</string>
+    <string name="lengthunitcm">厘米 (cm)</string>
+    <string name="lengthunitdm">分米 (dm)</string>
+    <string name="lengthunitm">米 (m)</string>
+    <string name="lengthunitkm">千米 (km)</string>
+
+
+    <string name="lengthunitfeet">英尺 (ft)</string>
+    <string name="lengthunitmile">英里 (mile)</string>
+    <string name="lengthunitinch">英寸 (inch)</string>
+
+
+    <string name="powerunithorsepower">马力 (HP)</string>
+    <string name="powerunitwatts">瓦特 (W)</string>
+    <string name="powerunitkilowatts">千瓦 (KW)</string>
+    <string name="powerunitmegawatt">百万瓦 (MW)</string>
+    <string name="powerunitgigawatt">吉瓦 (GW)</string>
+
+
+    <string name="energyunitcalories">卡路里 (cal)</string>
+    <string name="energyunitkilocalories">千卡 (kcal)</string>
+    <string name="energyunitjoules">焦耳 (J)</string>
+
+    <string name="velocityunitkmph">千米每小时 (km/h)</string>
+    <string name="velocityunitmeterpers">米每秒 (m/s)</string>
+    <string name="velocityunitmilesperh">英里每小时 (mph)</string>
+    <string name="velocityunitfeetpers">英尺每秒 (ft/s)</string>
+
+
+    <string name="areaunitsqmm">平方毫米 (mm²)</string>
+    <string name="areaunitsqm">平方米 (m²)</string>
+    <string name="areaunitsqcm">平方厘米 (cm²)</string>
+    <string name="areaunitsqkm">平方千米 (km²)</string>
+    <string name="areaunitsqmiles">平方英里 (mi²)</string>
+    <string name="areaunitsqyard">平方码 (yd²)</string>
+
+
+    <string name="volumeunitcubicmm">立方毫米 (mm³)</string>
+    <string name="volumeunitcubiccm">立方厘米 (cm³)</string>
+    <string name="volumeunitcubicm">立方米 (m³)</string>
+    <string name="volumeunitcubicfeet">立方英尺 (ft³)</string>
+
+
+    <string name="bitrateunitbytes">字节 (B)/s</string>
+    <string name="bitrateunitkilobytes">千字节 (KB)/s</string>
+    <string name="bitrateunitmegabytes">兆字节 (MB)/s</string>
+    <string name="bitrateunitgigabytes">吉字节 (GB)/s</string>
+    <string name="bitrateunitterabytes">太字节 (TB)/s</string>
+    <string name="bitrateunitbits">比特 (b)/s</string>
+    <string name="bitrateunitkilobits">千比特 (Kb)/s</string>
+    <string name="bitrateunitmegabits">兆比特 (Mb)/s</string>
+    <string name="bitrateunitgigabits">吉比特 (Gb)/s</string>
+    <string name="bitrateunitterabits">太比特 (Tb)/s</string>
+
+    <string name="timeunitsecond">秒 (s)</string>
+    <string name="timeunitminutes">分钟 (min)</string>
+    <string name="timeunithours">小时 (h)</string>
+    <string name="timeunitdays">天 (d)</string>
+    <string name="timeunitweeks">周</string>
+    <string name="timeunitmiliseconds">毫秒 (ms)</string>
+</resources>

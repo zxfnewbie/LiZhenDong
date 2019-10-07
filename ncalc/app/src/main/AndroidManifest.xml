@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2017 Tran Le Duy
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test1.calculator">
+
+    <application
+        android:name="com.test1.calculator.CalcApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppThemeLight">
+
+        <activity
+            android:name="com.test1.calculator.calc.BasicCalculatorActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.APP_CALCULATOR" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.test1.calculator.converter.UnitCategoryActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:label="@string/title_activity_unit_converter_acitvity"
+
+            android:launchMode="singleTask" />
+        <activity android:name="com.test1.calculator.converter.ConverterActivity" />
+
+        <activity
+            android:name="com.test1.calculator.calc.LogicCalculatorActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:launchMode="singleTask"
+            android:label="进制转换"/>
+
+        <activity
+            android:name="com.test1.calculator.activities.SolveEquationActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+
+            android:launchMode="singleTask" />
+         <activity
+            android:name="com.test1.calculator.activities.DerivativeActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name="com.test1.calculator.graph.GraphActivity"
+            android:label="@string/title_activity_graph" />
+        <activity
+            android:name="com.test1.calculator.graph.GraphAddFunction"
+            android:label="@string/add_function"
+
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name="com.test1.calculator.history.HistoryActivity"
+            android:label="@string/history"
+
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name="com.test1.calculator.activities.LimitActivity"
+            android:label="@string/limit"
+
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.test1.calculator.activities.IntegrateActivity"
+            android:label="@string/integrate"
+
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.test1.calculator.activities.PrimitiveActivity"
+            android:label="@string/primitive"
+
+            android:launchMode="singleTask" />
+
+
+            </application>
+
+</manifest>
